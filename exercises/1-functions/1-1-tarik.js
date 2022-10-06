@@ -29,7 +29,37 @@ function drawName() {
     context.lineTo(425, 300);
     context.stroke();
     //R
-    
-
+    context.linewidth = 7;
+    context.strokeStyle = "green";
+    context.beginPath();
+    context.moveTo(500, 150);
+    context.lineTo(500, 450);
+    context.moveTo(500, 150);
+    context.lineTo(600, 150);
+    context.moveTo(600, 150);
+    context.lineTo(600, 250);
+    context.moveTo(600, 250);
+    context.lineTo(500, 250);
+    context.moveTo(500, 250);
+    context.lineTo(600, 450);
+    context.stroke();
+    //I
+    context.linewidth = 35;
+    context.strokeStyle = "purple";
+    context.beginPath();
+    context.moveTo(650, 450);
+    context.lineTo(650, 150);
+    context.stroke();
+    //K
+    context.linewidth = 10;
+    context.strokeStyle = "yellow";
+    context.beginPath();
+    context.moveTo(700, 150);
+    context.lineTo(700, 600);
+    context.moveTo(700, 300);
+    context.lineTo(750, 600);
+    context.moveTo(700, 300);
+    context.lineTo(750, 150);
+    context.stroke();
 
 }
